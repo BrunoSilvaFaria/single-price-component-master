@@ -1,0 +1,66 @@
+// === Reset ===
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  color: #EEEEFF;
+  font-family: 'Karla', sans-serif;
+}
+
+// === Body ===
+body{
+  background: #99AABB;
+}
+
+// === main ===
+main{
+  background:#EEEEFF;
+}
+
+// === Header ===
+.header__conteiner{
+  .header__titulo{
+    color:#22BBAA;
+  }
+  .header__subtitulo{
+    color: #CCDD33;
+  }
+  .header__paragrafo{
+    color: #99AABB;
+  }
+}
+
+// === Card Plano ===
+.card--plano{
+
+  background: #22bbbb;
+  .card--plano__titulo{
+    font-size: 20px;
+  }
+  .card--plano__subtitulo{
+
+  }
+  .card--plano__subtitulo--info{
+
+  }
+  .card--plano__paragrafo{
+
+  }
+  .card--plano__button{
+    background: #CCDD33;
+
+  }
+}
+
+// === Card Info ===
+.card__info{
+  background: #44bbbb;
+  .card__info__titulo{
+
+  }
+  .card__info__paragrafo{
+
+  }
+}

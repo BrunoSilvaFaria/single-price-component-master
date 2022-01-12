@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  color: #EEEEFF;
+  font-family: 'Karla', sans-serif; }
+
+body {
+  background: #99AABB; }
+
+main {
+  background: #EEEEFF; }
+
+.header__conteiner .header__titulo {
+  color: #22BBAA; }
+.header__conteiner .header__subtitulo {
+  color: #CCDD33; }
+.header__conteiner .header__paragrafo {
+  color: #99AABB; }
+
+.card--plano {
+  background: #22bbbb; }
+  .card--plano .card--plano__titulo {
+    font-size: 20px; }
+  .card--plano .card--plano__button {
+    background: #CCDD33; }
+
+.card__info {
+  background: #44bbbb; }
+
+/*# sourceMappingURL=main.css.map */
