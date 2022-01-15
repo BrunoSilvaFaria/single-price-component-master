@@ -87,19 +87,48 @@ main{
 // === Card Info ===
 .card__info{
   background: #44bbbb;
-  height: 250px;
-  border-radius: 0 0 5px 5px;
+  width: 320px;
+  height: 220px;
+  border-radius: 0 5px 5px 0;
   .card__info__titulo{
     font-size: 20px;
     margin-bottom: 15px;
   }
   .card__info__lista{
-    font-size: 15px;
+    font-size: 13px;
     color: #a5eef4;
     width: 200px;
     li{
       margin-bottom: 5px;
       // background: red;
     }
+  }
+}
+@media(min-width: 650px) {
+  main{
+    max-width: 640px;
+  }
+  .section{
+    margin: 0 0 0 20px;
+  }
+  .section:first-child{
+    width: 500px;
+  }
+  .header__conteiner{
+    width: 640px;
+    height: 200px;
+  }
+  .header__titulo, .header__subtitulo{
+    margin-bottom: 0;
+  }
+
+  .card__info{
+    border-radius: 0 0 5px 0;
+  }
+  .card--plano{
+    border-radius: 0 0 0 5px;
+  }
+  .cards__conteiner{
+    display: flex;
   }
 }
